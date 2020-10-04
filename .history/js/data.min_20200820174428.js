@@ -722,7 +722,7 @@ var jsonData = [
     r10: {
       num: 0,
       name: '叛逆少女',
-      desc: '我给讲，这条gai，爷就是最靓的仔',
+      desc: 'result10',
       reason: '触发事件：奶茶事件，染发，离家出走',
       title: '',
     },

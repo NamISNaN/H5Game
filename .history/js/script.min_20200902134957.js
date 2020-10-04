@@ -309,12 +309,6 @@ var winWidth = window.innerWidth,
           b =
             result.r9.num >= 6
               ? 'r9'
-              : result.r4.num >= 20
-              ? 'r4'
-              : result.r5 >= 6
-              ? 'r5'
-              : result.r6 >= 6
-              ? 'r6'
               : result.r10.num >= 2
               ? 'r10'
               : result.r7.num >= 2
@@ -327,6 +321,12 @@ var winWidth = window.innerWidth,
               ? 'r2'
               : result.r3.num >= 2
               ? 'r3'
+              : result.r4.num >= 20
+              ? 'r4'
+              : result.r5 >= 6
+              ? 'r5'
+              : result.r6 >= 6
+              ? 'r6'
               : result.r1 >= 3
               ? 'r1'
               : 'r1' + parseInt(2 * Math.random() + 1)

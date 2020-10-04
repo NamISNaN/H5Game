@@ -173,7 +173,7 @@ body {
   left: 0.23rem;
   top: 0.21rem;
   box-sizing: border-box;
-  background-image: url(https://jsdemo123.oss-cn-beijing.aliyuncs.com/images/tvImg.png);
+  background-image: url(https://jsdemo123.oss-cn-beijing.aliyuncs.com/images/tvImg.pngg);
   background-size: auto 100%;
   z-index: -1;
 }
@@ -313,7 +313,7 @@ body {
   left: 0;
   top: 0;
   box-sizing: border-box;
-  padding: 0.3rem 0.8rem 0 0.75rem;
+  padding: 0.6rem 0.8rem 0 0.75rem;
 }
 .page3 .infoCon .infoBox .text h1 {
   text-align: center;

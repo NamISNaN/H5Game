@@ -722,7 +722,7 @@ var jsonData = [
     r10: {
       num: 0,
       name: '叛逆少女',
-      desc: '我给讲，这条gai，爷就是最靓的仔',
+      desc: 'result10',
       reason: '触发事件：奶茶事件，染发，离家出走',
       title: '',
     },
@@ -736,7 +736,7 @@ var jsonData = [
     r12: {
       num: 0,
       name: '完美之神',
-      desc: '恭喜你度过了完美的20年时光，未来可期！',
+      desc: 'result12',
       reason: '达成条件：成功抵达终点',
       title: '',
     },

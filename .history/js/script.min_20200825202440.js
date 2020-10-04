@@ -116,7 +116,7 @@ var winWidth = window.innerWidth,
           var a = this
           if (a.diceCan) {
             a.ifMusic && a.diceAudio.play(),
-              result.r4.num++,
+              // result.r4.num++,
               a.dice.animations.play('diceRun'),
               a.dice_btn.animations.play('btnRun')
             var b = parseInt(100 * Math.random()) + 100
@@ -309,24 +309,22 @@ var winWidth = window.innerWidth,
           b =
             result.r9.num >= 6
               ? 'r9'
-              : result.r4.num >= 20
-              ? 'r4'
-              : result.r5 >= 6
-              ? 'r5'
-              : result.r6 >= 6
-              ? 'r6'
-              : result.r10.num >= 2
-              ? 'r10'
-              : result.r7.num >= 2
-              ? 'r7'
-              : result.r8.num >= 2
-              ? 'r8'
-              : result.r1.num >= 2
-              ? 'r1'
               : result.r2.num >= 8
               ? 'r2'
               : result.r3.num >= 2
               ? 'r3'
+              : result.r4.num >= 20
+              ? 'r4'
+              : result.r10 >= 2
+              ? 'r10'
+              : result.r7 >= 1
+              ? 'r7'
+              : result.r8 >= 1
+              ? 'r8'
+              : result.r5 >= 6
+              ? 'r5'
+              : result.r6 >= 6
+              ? 'r6'
               : result.r1 >= 3
               ? 'r1'
               : 'r1' + parseInt(2 * Math.random() + 1)

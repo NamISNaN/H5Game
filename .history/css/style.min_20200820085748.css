@@ -26,7 +26,8 @@ body {
 }
 @font-face {
   font-family: myFont;
-  src: url('../js/font.ttf') format('truetype');
+  src: url('https://jsdemo123.oss-cn-beijing.aliyuncs.com/font.ttf')
+    format('truetype');
 }
 html {
   height: 100%;

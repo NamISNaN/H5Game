@@ -24,6 +24,7 @@ var jsonData = [
       _dir: 'player_left',
       speak: '2',
       text: '诶？奥运会\n看起来好好玩的样子',
+      result: 'r1',
       alertInfo: {
         h1: '北京申奥成功',
         p: '恭喜，前进2步,中国成功取得第29届奥运会的举办权！',
@@ -56,7 +57,7 @@ var jsonData = [
       _dir: 'player_back',
       speak: '0',
       text: '讲真的，我只是\n在光盘的背面\n看到一个可爱的小孩，\n所以选的',
-      result: 'r1',
+      result: 'r8',
       alertInfo: {
         h1: '抓阄',
         p:
@@ -86,7 +87,7 @@ var jsonData = [
       _dir: 'player_back',
       speak: '0',
       text: '人人人从人从人\n哇 地铁排队的人也\n太多了叭！',
-      result: 'r3',
+      result: 'r7',
       alertInfo: {
         h1: '深圳地铁通车',
         p: '恭喜，前进2步。深圳1号线从罗湖车站启动，这座城市在高速发展之中',
@@ -100,7 +101,7 @@ var jsonData = [
       _dir: 'player_right',
       speak: '0',
       text: '我可是德智\n体美全面\n发展的呢',
-      result: 'r1',
+      result: 'r3',
       alertInfo: {
         h1: '三好学生',
         p: '恭喜，前进5步。因为表现优异，获得三好学生称号！不亏是你！',
@@ -128,7 +129,7 @@ var jsonData = [
       _dir: 'player_right',
       speak: '0',
       text: '榴莲可比西\n瓜香多了！',
-      result: 'r1',
+      result: 'r3',
       alertInfo: {
         h1: '夏天',
         p: '恭喜，前进2步。在夏天去游泳吃冰榴莲简直是最幸福的事情了',
@@ -220,7 +221,6 @@ var jsonData = [
       _dir: 'player_left',
       speak: '1',
       text: '简单来说！\n冰上公主\n就是我了！',
-      result: 'r1',
       alertInfo: {
         h1: '冰上公主',
         p: '恭喜，前进1步。夏天的时候能去滑冰刀简直是最幸福的事情了',
@@ -300,7 +300,7 @@ var jsonData = [
       _dir: 'player_right',
       speak: '0',
       text: '短发也是\n超超超可爱的！',
-      result: 'r10',
+      result: '',
       alertInfo: {
         h1: '剪发',
         p:
@@ -321,7 +321,6 @@ var jsonData = [
       _dir: 'player_right',
       speak: '1',
       text: '我也慢慢在长大了\n准备上初中啦',
-      result: 'r3',
       alertInfo: {
         h1: 'GDP',
         p: '恭喜,前进1步。深圳人均GDP冲至全国第一名！',
@@ -362,7 +361,7 @@ var jsonData = [
       _dir: 'player_back',
       speak: '1',
       text: '我..我学数学学累\n喝点奶茶补补',
-      result: 'r10',
+      result: 'r3',
       alertInfo: {
         h1: '奶茶',
         p:
@@ -383,7 +382,7 @@ var jsonData = [
       _dir: 'player_left',
       speak: '1',
       text: '结果当然\n是被暴打一顿咯？',
-      result: 'r10',
+      result: 'r1',
       alertInfo: {
         h1: '离家出走',
         p:
@@ -404,6 +403,7 @@ var jsonData = [
       _dir: 'player_left',
       speak: '0',
       text: '唔...好吃..唔\n...这些小零食\n可太好吃了',
+      result: 'r10',
       alertInfo: {
         h1: '香港',
         p:
@@ -418,6 +418,7 @@ var jsonData = [
       _dir: 'player_left',
       speak: '0',
       text: '后来才明白\n外表不重要\n重要的是你对自己的认知',
+      result: 'r7',
       alertInfo: {
         h1: '买新鞋子',
         p:
@@ -432,7 +433,7 @@ var jsonData = [
       _dir: 'player_back',
       speak: '0',
       text: '高中生活！Start！',
-      result: 'r2',
+      result: 'r1',
       alertInfo: {
         h1: '上高中啦',
         p: '恭喜，前进1步。如愿上了一所很好的高中！',
@@ -446,7 +447,7 @@ var jsonData = [
       _dir: 'player_back',
       speak: '0',
       text: '？？？\n？？？？',
-      result: 'r2',
+      result: 'r1',
       alertInfo: {
         h1: '？？？',
         p: '恭喜，前进1步。你发现了惊天秘密,你们年纪的校草一天要去十几次厕所',
@@ -474,7 +475,7 @@ var jsonData = [
       _dir: 'player_right',
       speak: '0',
       text: '在？\n我3号 跳预言家',
-      result: 'r2',
+      result: 'r1',
       alertInfo: {
         h1: '毕业',
         p:
@@ -554,7 +555,6 @@ var jsonData = [
       _dir: 'player_back',
       speak: '1',
       text: '大家一定要戴好口罩\n少聚集。',
-      result: 'r9',
       alertInfo: {
         h1: '疫情爆发',
         p:
@@ -622,7 +622,7 @@ var jsonData = [
       _dir: 'player_left',
       speak: '0',
       text: '结果第二天爸爸\n和弟弟根本\n都没看出来',
-      result: 'r10',
+      result: 'r7',
       alertInfo: {
         h1: '染发',
         p: '在这儿停顿！半夜偷偷起床染发，还好没有被妈妈逮捕',
@@ -658,23 +658,23 @@ var jsonData = [
   result = {
     r1: {
       num: 0,
-      name: '孩子王',
-      desc: '童年的无忧无虑是无论多少年后都无法忘记的。',
-      reason: '触发事件：溜冰，抓阄，滑板，游泳',
+      name: '青涩年少',
+      desc: '高中生活虽只有短短三年，却也留下了不少回忆。',
+      reason: '触发事件：入学，高考，？？？，毕业',
       title: '',
     },
     r2: {
       num: 0,
       name: '最强考试王',
-      desc: '高中三年的生活，经历了上百场的考试，已所向披靡。',
-      reason: '触发事件：高中生涯',
+      desc: '成功度过高考这人生中的第一次重大考试',
+      reason: '触发事件：高考',
       title: '',
     },
     r3: {
       num: 0,
-      name: '时代先锋',
-      desc: '随着深圳一起发展起来的你，也是无限潜力和朝气。',
-      reason: '触发事件：深圳地铁，创业板开盘',
+      name: '股票大亨',
+      desc: '股市有风险，入股需谨慎哦',
+      reason: '触发事件：创业板开盘',
       title: '',
     },
     r4: {
@@ -721,22 +721,22 @@ var jsonData = [
     },
     r10: {
       num: 0,
-      name: '叛逆少女',
-      desc: '我给讲，这条gai，爷就是最靓的仔',
-      reason: '触发事件：奶茶事件，染发，离家出走',
+      name: '人生如梦',
+      desc: 'result10',
+      reason: '触发事件：创业',
       title: '',
     },
     r11: {
       num: 0,
       name: '特殊的1%',
-      desc: '你跟99%不一样，特别的爱给特别的你',
+      desc: 'result11',
       reason: '达成条件：成功抵达终点',
       title: '',
     },
     r12: {
       num: 0,
       name: '完美之神',
-      desc: '恭喜你度过了完美的20年时光，未来可期！',
+      desc: 'result12',
       reason: '达成条件：成功抵达终点',
       title: '',
     },
